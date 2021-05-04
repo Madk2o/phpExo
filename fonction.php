@@ -60,7 +60,27 @@ echo '<p>**********************************************</p>';
 
 //exo13
 
+//ajout marc et matilde dans le tab
 
+    $marc = [
+        'Nom' => 'Marc',
+        'Age' => '25',
+        'Sexe' => 'Homme'
+    ];
+    $mathilde = [
+        'Nom' => 'Mathilde',
+        'Age' => '21',
+        'Sexe' => 'Femme'
+    ];
+
+ $tableau = [
+$guy,$delphine,$marc,$mathilde
+];
+
+foreach($tableau as $value){
+     afficher($value);
+    echo "<p>-----------</p>";
+ }
 
 //exo14
 ?>
