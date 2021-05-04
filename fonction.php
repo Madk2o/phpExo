@@ -77,8 +77,8 @@ echo '<p>**********************************************</p>';
 $guy,$delphine,$marc,$mathilde
 ];
 
-foreach($tableau as $value){
-     afficher($value);
+foreach($tableau as $x){
+     afficher($x);
     echo "<p>-----------</p>";
  }
 
